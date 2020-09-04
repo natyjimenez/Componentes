@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans';
+}
+
+.fondo {
+    background-image: url(./space.jpg);
+}
+
+.titulo {
+    color:rgb(63, 190, 63);
+    font-size: 34px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgb(247, 246, 247);
+}
+
+.contenido {
+    display: flex;
+}
+
+.nombre {
+    color: rgb(63, 190, 63);
+    font-size: 18px;
+    margin-top: 85px;
+    font-weight: 700;
+}
+
+.imagen {
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgb(139, 63, 190);
+    height: 150px;
+    margin: 20px;
+}
